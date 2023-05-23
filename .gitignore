@@ -2,5 +2,5 @@ Challenge.mk
 Challenge.project
 CMakeLists.txt
 Description.txt
-/cmake-build-default/*
+/cmake-build-default/
 /.idea/*
