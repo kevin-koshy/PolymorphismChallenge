@@ -4,8 +4,8 @@
 #include <vector>
 #include "Account.h"
 #include "Savings_Account.h"
-#include "Checking_Account.h"
-#include "Trust_Account.h"
+//#include "Checking_Account.h"
+//#include "Trust_Account.h"
 #include "Account_Util.h"
 
 using namespace std; 
@@ -15,15 +15,15 @@ int main() {
     cout << fixed;
    
     // Accounts
-    vector<Account> accounts;
-    accounts.push_back(Account {});
-    accounts.push_back(Account {"Larry"});
-    accounts.push_back(Account {"Moe", 2000} );
-    accounts.push_back(Account {"Curly", 5000} );
-    
-    display(accounts);
-    deposit(accounts, 1000);
-    withdraw(accounts,2000);
+//    vector<Account> accounts;
+//    accounts.push_back(Account {});
+//    accounts.push_back(Account {"Larry"});
+//    accounts.push_back(Account {"Moe", 2000} );
+//    accounts.push_back(Account {"Curly", 5000} );
+//
+//    display(accounts);
+//    deposit(accounts, 1000);
+//    withdraw(accounts,2000);
     
     // Savings 
 
@@ -48,9 +48,9 @@ int main() {
     display(check_accounts);
     deposit(check_accounts, 1000);
     withdraw(check_accounts, 2000);
-
-    // Trust
-  
+//
+//    // Trust
+//
     vector<Trust_Account> trust_accounts;
     trust_accounts.push_back(Trust_Account {} );
     trust_accounts.push_back(Trust_Account {"Athos", 10000, 5.0} );
@@ -60,11 +60,11 @@ int main() {
     display(trust_accounts);
     deposit(trust_accounts, 1000);
     withdraw(trust_accounts, 3000);
-    
-    // Withdraw 5 times from each trust account
-    // All withdrawals should fail if there are too many withdrawals or if the withdrawl is > 20% of the balance
-    for (int i=1; i<=5; i++)
-        withdraw(trust_accounts, 1000);
+//
+//    // Withdraw 5 times from each trust account
+//    // All withdrawals should fail if there are too many withdrawals or if the withdrawl is > 20% of the balance
+//    for (int i=1; i<=5; i++)
+//        withdraw(trust_accounts, 1000);
     
 
     

@@ -1,0 +1,20 @@
+# ninja log v5
+1	320	1684825307092426602	CMakeFiles/Challenge.dir/Checking_Account.cpp.o	efa5c318cb26f1f0
+0	338	1684825307111845496	CMakeFiles/Challenge.dir/Account_Util.cpp.o	e813e5bf34efbd56
+1	357	1684825307129622799	CMakeFiles/Challenge.dir/Savings_Account.cpp.o	674263ea84f87b29
+1	373	1684825307145721676	CMakeFiles/Challenge.dir/Trust_Account.cpp.o	4dfce33981fec44b
+0	381	1684825307152949881	CMakeFiles/Challenge.dir/Account.cpp.o	5ce55d432f4fc3f4
+1	398	1684825307171559937	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+7	276	1684825373143746092	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+7	315	1684825505920581228	CMakeFiles/Challenge.dir/Savings_Account.cpp.o	674263ea84f87b29
+7	282	1684825691621836726	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+7	257	1684825861583621169	CMakeFiles/Challenge.dir/Checking_Account.cpp.o	efa5c318cb26f1f0
+257	291	1684825861618887564	Challenge	8759f00ffd8198c6
+8	307	1684826125529393126	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+307	343	1684826125568420488	Challenge	8759f00ffd8198c6
+8	267	1684826391451846359	CMakeFiles/Challenge.dir/Trust_Account.cpp.o	4dfce33981fec44b
+8	288	1684826391473133894	CMakeFiles/Challenge.dir/Account_Util.cpp.o	e813e5bf34efbd56
+8	298	1684826391483229974	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+298	339	1684826391525751419	Challenge	8759f00ffd8198c6
+7	307	1684826405425071909	CMakeFiles/Challenge.dir/main.cpp.o	f7251bf39c9fb252
+307	342	1684826405462395105	Challenge	8759f00ffd8198c6
