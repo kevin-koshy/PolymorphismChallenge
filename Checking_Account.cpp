@@ -10,16 +10,11 @@ bool Checking_Account::withdraw(double amount) {
 }
 
 bool Checking_Account::deposit(double amount) {
-    if (amount < 0)
-        return false;
-    else {
-        balance += amount;
-        return true;
-    }
+    return Account::deposit(amount);
 }
 
-std::ostream &operator<<(std::ostream &os, const Checking_Account &account) {
-    os << "[Checking_Account: " << account.name << ": " << account.balance  << "]";
-    return os;
+void Checking_Account::print(std::ostream &os) const {
+    os << "[Account: "<< name <<":" << balance << "]";
 }
+
 

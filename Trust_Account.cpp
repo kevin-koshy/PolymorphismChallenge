@@ -27,3 +27,7 @@ std::ostream &operator<<(std::ostream &os, const Trust_Account &account) {
         << "%, withdrawals: " << account.num_withdrawals <<  "]";
     return os;
 }
+
+void Trust_Account::print(std::ostream &os) const {
+    os << "[Trust Account: "<< name <<":" << balance << ", " <<int_rate<<" % "<<num_withdrawals<<"]";
+}
